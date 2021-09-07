@@ -1,6 +1,6 @@
 body {font-family: Montserrat;}
 
-#title {background-color:#ff4c68;
+#title {background-color:#C9CBFF;
 color:#fff;
 }
 
@@ -59,11 +59,12 @@ p {
 /* Title Image */
 
 .title-image {
-width: 700%;
-transform: rotate(25deg);
-position: absolute;
-left:400%;
+width: 30vw;
+position: relative;
+left:10vw;
+border-radius: 100%;
 }
+
 
 /* Features Section */
 #features {
@@ -79,18 +80,18 @@ z-index: 1;
 }
 
 .icon {
-  color: #ef8172;
+  color: #D0E8F2;
   margin-bottom: 1rem;}
 
 .icon:hover {
-  color:#ff4c68;
+  color:#C9CBFF;
 }
 
 /* Testimonials Section */
 
 #testimonials {
   text-align: center;
-  background-color: #ef8172;
+  background-color: #D0E8F2;
   color: #fff;
 }
 
@@ -105,7 +106,7 @@ z-index: 1;
 }
 
 #press{
-background-color: #ef8172;
+background-color: #D0E8F2;
 text-align: center;
 padding-bottom: 3%;
 }
@@ -128,7 +129,7 @@ padding-bottom: 3%;
 /* Call to Action */
 
 #cta {
-background-color: #ff4c68;
+background-color: #C9CBFF;
 color:#fff;
 text-align: center;
 padding: 7% 10%;
