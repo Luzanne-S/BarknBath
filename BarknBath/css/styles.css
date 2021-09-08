@@ -51,7 +51,7 @@ p {
   font-family:'Montserrat-Light;
 }
 
-/* Download Buttons */
+/* Buttons */
 .download-button {
   margin:5% 3% 5% 0;
 }
@@ -59,10 +59,11 @@ p {
 /* Title Image */
 
 .title-image {
-width: 30vw;
-position: relative;
-left:10vw;
-border-radius: 100%;
+width: 38vw;
+position: absolute;
+bottom: -46vh;
+left:-4vw;
+
 }
 
 
@@ -95,26 +96,11 @@ z-index: 1;
   color: #fff;
 }
 
-.testimonial-image {
-  width:10%;
-  border-radius: 100%;
-  padding: 20px;
-}
 
 .carousel-item {
   padding: 7% 10%;
 }
 
-#press{
-background-color: #D0E8F2;
-text-align: center;
-padding-bottom: 3%;
-}
-
-.press-logo {
-  width:13%;
-  margin:20px 20px 50px;
-}
 
 /* Pricing Section */
 #pricing{
@@ -162,6 +148,6 @@ line-height: 1.5;
 
   .title-image {
     position: static;
-    transform: rotate(0);
+    
   }
 }
