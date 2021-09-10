@@ -45,6 +45,7 @@ margin:auto;
 }
 .card-book{
   position:relative;
+  text-align: center;
    background-color:#C9CBFF;
   border-color: #C9CBFF;
   padding-bottom: 7%;
@@ -84,13 +85,12 @@ margin:auto;
 /* Title Image */
 
 .title-image {
-width: 38vw;
+width: 40vw;
 position: absolute;
 bottom: -46vh;
 left:-4vw;
 
 }
-
 
 /* Features Section */
 #features {
