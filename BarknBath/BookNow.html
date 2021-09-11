@@ -20,6 +20,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/booknow.css" />
+    <script type="text/javascript" src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/5d391d372a.js"
       crossorigin="anonymous"
@@ -80,66 +81,43 @@
     <div class="card-book">
       <div class="card-body">
         <h1 class="Book">Book Now</h1>
-        <div class="testbox">
-      <form>
-        <div class="banner">
-          
-        </div>
-        <div class="item">
-          <p>Select Date</p>
-          <input type="date" name="bdate" required/>
-          <i class="fas fa-calendar-alt"></i>
-        </div>
-        <div class="item">
-          <p>Name</p>
-          <div class="name-item">
-            <input type="text" name="name" placeholder="FirstName" />
-            <input type="text" name="name" placeholder="Last Name" />
+        <form action="BookNow.html" method="post" id="information">
+          <div class="item">
+            <p>Select Date</p>
+            <input type="date" name="bdate" required />
+            <i class="fas fa-calendar-alt"></i>
           </div>
-        </div>
-        <div class="item">
-          <p>Email</p>
-          <input type="email" name="email"/>
-         </div>
-        <div class="item">
-          <p>Phone</p>
-          <input type="text" name="phone" placeholder="### ### ####"/>
-        </div>
-        <div class="dog">
-          <p>Dog Size</p>
-          <div class="dog-answer">
-            <div>
-              <input type="radio" value="none" id="radio_1" name="gender"/>
-              <label for="radio_1" class="radio"><span>Small</span></label>
-            </div>
-            <div>
-              <input type="radio" value="none" id="radio_2" name="gender"/>
-              <label for="radio_2" class="radio"><span>Medium</span></label>
-            </div>
+
+          <div class="field">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+            <small></small>
           </div>
-           <div>
-              <input type="radio" value="none" id="radio_1" name="gender"/>
-              <label for="radio_1" class="radio"><span>Large</span></label>
-            </div>
-        </div>
-        
+          <div class="field">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+            <small></small>
           </div>
-       
-        <div class="item">
-          <p>Total Number of dogs</p>
-          <textarea rows="2"></textarea>
-        </div>
-      
-        <div class="item">
-          <p>Additional Treatments</p>
-          <textarea rows="2"></textarea>
-        </div>
-        <div>
-          <button type="button" class= "btn btn-outline-light btn-lg button" type="submit" href="/">Submit</button>
-        </div>
-         </div>
-      </form>
-    </div>
+          <div>
+            <button
+              class="btn btn-outline-light btn-lg button"
+              type="submit"
+              href="/"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 
@@ -206,5 +184,6 @@
       <i class="social-icon far fa-envelope"></i>
       <p>© Copyright 2021 Bark & Bath</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
