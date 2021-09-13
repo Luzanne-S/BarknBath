@@ -110,20 +110,8 @@ textarea {
   width: calc(100% - 12px);
   padding: 5px;
 }
-.item:hover p,
-.item:hover i,
-.question:hover p,
-.question label:hover,
-input:hover::placeholder {
- 
-}
-.item input:hover,
-.item select:hover,
-.item textarea:hover {
-  border: 1px solid transparent;
-  box-shadow: 0 0 6px 0 #C9CBFF;
-  color: #C9CBFF;
-}
+
+
 .item {
   position: relative;
   max-width: 50%;
@@ -151,7 +139,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 button {
-  background-color:#C9CBFF;
+ 
   border-color: #777676;
   margin-top: 10px;
   text-align: center;
