@@ -81,7 +81,7 @@
     <div class="card-book">
       <div class="card-body">
         <h1 class="Book">Book Now</h1>
-        <form id="information">
+        <form id="information" onSubmit="send()">
           <div class="item">
             <p>Select Date</p>
             <input type="date" name="bdate" required />
@@ -93,7 +93,8 @@
             <input
               type="text"
               id="name"
-              name="name"
+              name="name" 
+              required
               placeholder="Enter your full name"
             />
             <small></small>
@@ -104,6 +105,7 @@
               type="text"
               id="email"
               name="email"
+              required
               placeholder="Enter your email address"
             />
             <small></small>
@@ -184,5 +186,10 @@
       <i class="social-icon far fa-envelope"></i>
       <p>© Copyright 2021 Bark & Bath</p>
     </footer>
+    <script>
+      function send() {
+        alert("Thank you, we will contact you soon");
+      }
+      </script>
   </body>
 </html>
