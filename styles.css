@@ -5,8 +5,6 @@ color:#fff;
 min-height:655px;
 
 }
-
-
 .container-fluid {
   padding: 3% 15% 15%;
 }
@@ -49,11 +47,11 @@ margin:auto;
 .card-book{
   position:relative;
   text-align: center;
-   background-color:#C9CBFF;
   border-color: #C9CBFF;
   padding-bottom: 7%;
 margin:auto;
 }
+
   /* Navigation Bar */
 
 .navbar {
